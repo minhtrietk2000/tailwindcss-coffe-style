@@ -25,3 +25,15 @@
 .tnm-top-menu-expanded {
 	@apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown;
 }
+
+.tnm-subheadline {
+	@apply flex justify-center items-center mb-24;
+}
+
+.tnm-subheadline-deco-line {
+	@apply w-8 h-[0.1rem] bg-gray-200;
+}
+
+.tnm-subheadline-label {
+	@apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-[13px] text-center;
+}
