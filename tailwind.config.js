@@ -35,8 +35,8 @@ module.exports = {
         'slider-bg' : 'url("./img/slider-bg.jpg")'
       },
       screens: {
-        'lg' : '968px',
-      }
+        'xs' : '480px',
+      },
 
     },
   },
