@@ -30,7 +30,8 @@ module.exports = {
         fadeIn: {
           from: {opacity: 0},
           to: {opacity: 1}
-        }
+        },
+        
       },
       animation: {
         slideDown: 'slideDown 0.4s ease-in-out',
