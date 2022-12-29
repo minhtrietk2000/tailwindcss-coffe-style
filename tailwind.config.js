@@ -1,7 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
+    screens: {
+        'xs' : '480px',
+        ...defaultTheme.screens,
+      },
     extend: {
 
     	fontFamily: {
@@ -34,9 +39,7 @@ module.exports = {
       backgroundImage: {
         'slider-bg' : 'url("./img/slider-bg.jpg")'
       },
-      screens: {
-        'xs' : '480px',
-      },
+
 
     },
   },
