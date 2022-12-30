@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 @tailwind base;
 
@@ -7,37 +7,45 @@
 @tailwind utilities;
 
 .coffee-menu-items {
-	@apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-500;
+  @apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-light-coffee after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-500;
 }
 
 .coffee-menu-items-active {
-	@apply text-gray-800;
+  @apply text-gray-800;
 }
 
 .coffee-cart-icons {
-	@apply w-5 h-5 inline-block;
+  @apply w-5 h-5 inline-block;
 }
 
 .coffee-badge-circle {
-	@apply text-xs text-center rounded-full px-1.5;
+  @apply text-xs text-center rounded-full px-1.5;
 }
 
 .tnm-top-menu-expanded {
-	@apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown;
+  @apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown;
 }
 
 .tnm-subheadline {
-	@apply flex justify-center items-center mb-24;
+  @apply flex justify-center items-center mb-24;
 }
 
 .tnm-subheadline-deco-line {
-	@apply w-8 h-[0.1rem] bg-gray-200;
+  @apply w-8 h-[0.1rem] bg-gray-200;
 }
 
 .tnm-subheadline-label {
-	@apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
 }
 
 .tnm-button {
-	@apply text-center uppercase tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-90;
+  @apply text-center uppercase tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-90;
+}
+
+.tnm-item-li-footer {
+  @apply text-sm leading-3 text-gray-600 font-normal hover:text-coffee-400 cursor-pointer;
+}
+
+.tnm-header-item-footer {
+  @apply text-xs uppercase text-[#1d1f2e] font-semibold leading-4 tracking-wider opacity-60 mb-8;
 }
